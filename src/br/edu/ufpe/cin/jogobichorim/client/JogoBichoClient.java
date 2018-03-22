@@ -13,7 +13,7 @@ public class JogoBichoClient {
 	public static void main(String[] args) throws RemoteException,
 			NotBoundException, InterruptedException {
 
-		//* obtain a reference to a bootstrap remote object registry */
+		//* obter uma referência a um registro de objeto remoto bootstrap  */
 		Registry registry = LocateRegistry.getRegistry("localhost", 1313);
 
 		IJogoBicho jogo_bicho_cliente = (IJogoBicho) registry.lookup("JogoBicho");

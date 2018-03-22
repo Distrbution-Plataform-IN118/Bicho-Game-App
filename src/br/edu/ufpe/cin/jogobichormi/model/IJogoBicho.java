@@ -7,6 +7,4 @@ public interface IJogoBicho extends Remote {
 	void identificarBicho(int id_bicho) throws RemoteException;
 	String [] mostrarResultadoJogoBicho() throws RemoteException;
 	
-	
-
 }
